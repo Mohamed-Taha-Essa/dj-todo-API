@@ -1,8 +1,8 @@
 from django.db import models
 from django.utils import timezone
 STATUS = [
-    ('Inprogress','Inprogress'),
-    ('Done','Done')
+    ('INPROGRESS','INPROGRESS'),
+    ('DONE','DONE')
 
 ]
 class ToDo(models.Model):
