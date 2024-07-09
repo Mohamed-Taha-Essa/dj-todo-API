@@ -7,4 +7,3 @@ class ToDoViewSets(viewsets.ModelViewSet):
     serializer_class = ToDoSerializers
     queryset = ToDo.objects.all()
 
-    xxx
